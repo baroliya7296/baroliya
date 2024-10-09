@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>document</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form><table align="center">
+            <tr>
+                <td>
+                    <b><label for="Name">Name:</label></b>
+                </td>
+                <td>
+                    <input type="text"
+                    name=""
+                    id="name"
+                    required
+                    minlength="2"
+                    maxlength="15" />
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <b><label for="surname">Surname:</label></b>
+                </td>
+                <td>               
+                    <input type="text"
+                    name=""
+                    id="surname"
+                    required
+                    minlength="3"
+                    maxlength="15" /></td>  
+                
+            </tr>
+                
+            <tr>
+                <td>
+                    <b><label for="dob">Dob:</label></b>
+                </td>
+                <td><input type="date" name="" id="" required /></td>
+            </tr>
+    
+            <TR>
+                <TD>
+                    <b><label for="email">Email:</label></b>
+                </TD>
+                <td><input type="email" name="" id="email" /></td>
+            </TR>
+    
+            <tr>
+                <td>
+                    <b><label for="password">password:</label></b>
+                </td>
+                <td><input type="password" name="" id="email" required /> </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <b><label for="city">city</label> </b>
+                </td>
+                <td>
+                    <select name="" id="distric">
+                        <option value="ahamdabad">ahamdabad</option>
+                        <option value="amreli">amreli</option>
+                        <option value="vadodara">vadodara</option>
+                        <option value="botad">botad</option>
+                        <option value="bhavnagar">bhavnagar</option>
+                        <option value="junagadh">junagadh</option>
+                        <option value="surat">surat</option>
+                        <option value="surendranagar">surendranagar</option>
+                        <option value="banaskatha">banaskatha</option> 
+                    </select>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <b><label for="college">college:</label></b>
+                <td><input type="text" name="" id="college" list="clg-list"</td>
+                <datalist id="clg-list">
+                    <option value="saurashtra">saurashtra university</option>
+                    <option value="r k">r k university</option>
+                    <option value="atmiya">atmiya university</option>
+                </datalist>
+            </tr>
+    
+            <tr>
+                <td> <b><label for="marks">marks:</label></b></td>
+                <td><input type="number" name="" id="mark" max="100" min="55" /></td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <b><label for="resume">resume:</label></b>
+                </td>
+                <td><input type="file" name="" id="resume" accept=".pdf" /></td>
+            </tr>
+    
+            <tr>
+                <b><td><input type="submit" name="" id="" /></td></b>
+            </tr>
+            <tr>
+                <b><td><input type="reset" name="" id="" /></td></b>
+            </tr>
+        
+        </table>
+    </form>
+        
+    
+    </body>
+</html>
